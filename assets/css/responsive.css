@@ -1,0 +1,640 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media (min-width: 2400px) {
+	.testomonial .testo-box .single .content:before {
+		left: 12%;
+	}
+}
+
+@media (max-width: 2400px) {
+	.banner {
+		padding: 329px 0 250px;
+	}
+
+	.feature .shap .fshap {
+		top: 48%;
+		width: 30%;
+	}
+
+	.testomonial .testo-box .single .content:before {
+		left: 12%;
+	}
+}
+
+@media (max-width: 2000px) {
+
+	.banner {
+		padding: 289px 0 200px;
+	}
+
+	.feature .shap .fshap {
+		width: 36%;
+	}
+
+	.feature-box.three {
+		margin-top: -70px;
+	}
+
+	.earningpartners .bg .dp-bg {
+		width: 54%;
+	}
+}
+
+@media (max-width: 1399px) {
+	.banner {
+		padding: 229px 0 150px;
+	}
+
+	h1.head {
+		font-size: 70px;
+		line-height: 80px;
+	}
+
+	h2.title,
+	.counter .page-counter .counter-item h2.title,
+	.counter .page-counter .counter-item h2.title span {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.testomonial .testo-box .single .content:before {
+		left: 16%;
+	}
+
+	.deposit .sape .rdot-1,
+	.deposit .sape .rdot-2,
+	.deposit .sape .rdot-3 {
+		display: none;
+	}
+}
+
+@media (max-width: 1199px) {
+
+	h1.head {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	h2.title {
+		font-size: 42px;
+		line-height: 52px;
+	}
+
+	h3.subtitle {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	h4.lasthead {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.counter .page-counter .counter-item h2.title,
+	.total-affiliate-section .total-content .tot-wrapper .tot-area .page-counter .counter-item h2.title span.count-num,
+	.total-affiliate-section .total-content .tot-wrapper .tot-area .page-counter .counter-item h2.title {
+		font-size: 42px;
+		line-height: 52px;
+	}
+
+	.counter .page-counter .counter-item h2.title span {
+		font-size: 42px;
+		line-height: 52px;
+	}
+
+	#scrollUp {
+		right: 0%;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+		margin-left: 20px;
+	}
+
+	.transaction .bg .secton-bg {
+		height: 50%;
+	}
+
+	.feature .feature-box.one,
+	.feature .feature-box.three {
+		margin-top: 30px;
+	}
+
+	.feature .feature-box {
+		min-height: auto;
+	}
+
+	.feature .upper-content {
+		text-align: center;
+	}
+
+	.upper-content a.button.button-1 {
+		margin: 30px auto 0px;
+	}
+
+	.feature .shap .fshap {
+		top: 62%;
+	}
+
+	.advance-feature .upper-content a.button.button-1 {
+		margin: 37px 0px 0px 0px;
+	}
+
+	.about-section .about-thumb {
+		padding: 0px 0px 30px 0px;
+		direction: ltr;
+	}
+
+	.about-section .about-thumb img {
+		max-width: 70%;
+	}
+
+	.about-section .about-content .counter-area-5 .page-counter:before {
+		right: -40%;
+	}
+
+	.compare {
+		padding: 90px 0 79px;
+	}
+
+	.feature {
+		padding: 5px 0 120px;
+	}
+
+	.testomonial .testo-box .single .content h4.lasthead {
+		padding: 0px 35px 0px;
+	}
+
+	.testomonial .testo-box .single .content:before {
+		left: 10%;
+	}
+
+	.feature .upper-content {
+		margin-top: 0px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	.banner {
+		padding: 188px 0 120px;
+	}
+
+	.banner .hero-area .banner-content p.text {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.mein-menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: -webkit-linear-gradient(45deg, rgba(144, 62, 255, 1) 0%, rgba(62, 25, 255, 1) 100%);
+		background: linear-gradient(45deg, rgba(144, 62, 255, 1) 0%, rgba(62, 25, 255, 1) 100%);
+		box-shadow: 3.801px 12.432px 24px 0px rgb(150 131 225 / 40%);
+		z-index: 99999;
+		padding: 10px 0 10px;
+
+	}
+
+	.mein-menu:after {
+		display: none;
+	}
+
+	.mein-menu .navbar .navbar-toggler:focus {
+		box-shadow: 0;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+		height: 350px;
+		overflow: auto;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav {
+		margin-left: auto;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
+		align-items: flex-start;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.mein-menu .navbar #navbarNavDropdown ul.navbar-nav li.nav-item a.nav-link:before {
+		top: calc(100% + 0px);
+	}
+
+	.feature .shap .fshap,
+	.counter .page-counter:after {
+		display: none;
+	}
+
+	.earningpartners .bg .dp-bg {
+		width: 100%;
+	}
+
+	.footer .footer-bottom .social-style {
+		text-align: left;
+		padding-top: 20px;
+	}
+
+	.deposit .offer .offer-box .offer-item .content h2.pursent {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.advance-feature .advance-feature-thumb {
+		margin-bottom: 30px;
+	}
+
+	.pagination-area {
+		margin-bottom: 50px;
+	}
+
+	.blog-details .blog-comment .leave-comment {
+		margin-bottom: 50px;
+	}
+
+	.chart-section .page-counter h2.title span.count-num {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.chart-section #chartContainer {
+		margin-top: 30px;
+	}
+
+	.about-section .about-thumb img {
+		max-width: 90%;
+	}
+
+	.about-section .about-content .counter-area-5 .page-counter:before {
+		display: none;
+	}
+
+	.contact-section .contact-content {
+		margin-top: 50px;
+	}
+
+	.about-section {
+		padding: 120px 0px 102px;
+	}
+
+	.banner {
+		background: none;
+	}
+
+	.testomonial .testo-box .single .content {
+		padding: 0px 30px 0px;
+	}
+
+	.testomonial .testo-box .single .content:before {
+		left: 0px;
+	}
+
+	.testomonial.about {
+		padding: 120px 0px 153px;
+	}
+
+	.testomonial {
+		padding: 0px 0px 153px;
+	}
+
+	.contact-section .contact-content .contact-area .contact-item {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.contact-section .contact-content .contact-area .contact-item .contact-thumb {
+		margin-bottom: 10px;
+	}
+
+	.contact-section .contact-content .contact-area .contact-item .contact-contact {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.about-section .about-thumb,
+	.affiliate-programe .upper-content,
+	.about-section .about-content .upper-content,
+	.chart-section .upper-content,
+	.chart-section .counter-item,
+	.banner .hero-area .banner-content,
+	.affiliate-box,
+	.why-affiliate-section .why-affiliate-content .upper-content,
+	.contact-section .contact-content,
+	.advance-feature .advance-feature-thumb,
+	.advance-feature .upper-content {
+		text-align: center;
+	}
+
+	.advance-feature .upper-content {
+		margin: 0;
+	}
+
+	.advance-feature.two {
+		padding: 121px 0 94px;
+	}
+
+	.banner .hero-area .banner-content a.button {
+		margin: 38px auto 0 auto;
+	}
+
+	.breadcrumb {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.banner.about,
+	.banner.affiliate,
+	.banner.contact,
+	.banner.pricing,
+	.banner.faq,
+	.banner.blog {
+		padding: 190px 0 100px;
+	}
+
+	.blog-section,
+	.blog-details {
+		padding: 120px 0 65px;
+	}
+
+	.affiliate-programe .affiliate-box .affiliate-wrapper {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.affiliate-programe .affiliate-box .affiliate-bottom a.button-1,
+	.why-affiliate-section .why-affiliate-content a.custom-button,
+	.advance-feature .upper-content a.button.button-1 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact-section {
+		padding: 120px 0 90px;
+	}
+
+	.faq {
+		padding: 114px 0px 94px;
+		position: relative;
+	}
+
+	.blog-section .post-item .post-content h3.subtitle a {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.testomonial .testo-box .single .content h4.lasthead {
+		padding: 0px 0px 0px;
+	}
+
+
+	.transaction .transaction-box .tab-content .tab-pane .responsive-table {
+		overflow: auto;
+	}
+
+	.transaction .transaction-box .tab-content .tab-pane .responsive-table .table {
+		width: 918px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.deposit .offer .offer-box {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.deposit .offer .offer-box .arrow {
+		height: 150px;
+	}
+
+	.deposit .offer .offer-box .arrow .arrow-pic {
+		margin-top: 65px;
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+
+	.process .videoo .video-box {
+		width: 315px;
+	}
+
+	.blog-details .blog-comment .comment-area .blog-item.margin {
+		padding-left: 30px;
+	}
+
+	.blog-details .post-details .tags-area {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.about-section .about-thumb img {
+		max-width: 100%;
+	}
+
+	.about-section .about-content .counter-area-5 .page-counter {
+		min-width: 50%;
+	}
+
+	.total-affiliate-section .total-content .tot-wrapper .tot-area .page-counter .counter-item h2.title,
+	.total-affiliate-section .total-content .tot-wrapper .tot-area .page-counter .counter-item h2.title span.count-num {
+		font-size: 42px;
+		line-height: 52px;
+	}
+
+	.total-affiliate-section .total-content .tot-wrapper .tot-area {
+		width: 100%;
+	}
+
+	.testomonial.about {
+		padding: 120px 0px 143px;
+	}
+
+	.testomonial {
+		padding: 0px 0px 143px;
+	}
+
+	.contact-section {
+		padding: 120px 0 80px;
+	}
+
+	.advance-feature.two {
+		padding: 120px 0 84px;
+	}
+
+	.faq {
+		padding: 114px 0px 85px;
+		position: relative;
+	}
+
+	.blog-details {
+		padding: 120px 0 55px;
+	}
+
+}
+
+@media (max-width: 575px) {
+	.earningpartners .bg .dp-bg {
+		display: none;
+	}
+
+	.blog-details .blog-comment .comment-area .blog-item {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: start;
+		-ms-flex-align: start;
+		-ms-grid-row-align: flex-start;
+		align-items: flex-start;
+	}
+
+	.blog-details .blog-comment .comment-area .blog-item .blog-thumb-info {
+		min-width: auto;
+		padding: 15px 0 15px;
+	}
+
+	.blog-details .blog-comment .comment-area .blog-item .blog-content {
+		padding-left: 0px;
+	}
+
+	.blog-details .post-details .post-inner .post-content .entry-content {
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.blog-details .post-details .post-inner .post-content {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.blog-details .post-details .post-inner .post-content .entry-meta {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+
+	.why-affiliate-section .why-affiliate-content .why-area .why-item {
+		width: 100%;
+	}
+
+	.account-section .account-title {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	.account-section .account-title a.back-home {
+		position: relative;
+		left: auto;
+		top: auto;
+		-webkit-transform: unset;
+		transform: unset;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 414px) {
+	.deposit .offer .offer-box .arrow .arrow-pic {
+		margin-top: 40px;
+	}
+
+	.deposit .offer .offer-box .arrow {
+		height: 100px;
+	}
+
+	.process .videoo .video-box {
+		width: 250px;
+	}
+
+	.blog-section .post-item .post-content {
+		margin: 0px 0px 30px;
+	}
+
+	.pagination-area a {
+		margin: 0 5px;
+	}
+
+	.about-section .about-content .counter-area-5 .page-counter {
+		min-width: 100%;
+	}
+
+	.account-section .account-wrapper .account-header a.sign-in-with {
+		padding: 12px 20px;
+	}
+
+	.account-section .account-wrapper .account-header span {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.testomonial .testo-box .single .content:before {
+		top: 0px;
+	}
+
+	.about-section .about-content .counter-area-5 .page-counter {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.about-section .about-content .counter-area-5 .page-counter .counter-thumb {
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (max-width: 360px) {
+	.account-section .account-wrapper .account-header a.sign-in-with {
+		padding: 12px 20px;
+	}
+
+	.account-section .account-wrapper .account-header span {
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
