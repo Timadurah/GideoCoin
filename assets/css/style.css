@@ -4936,6 +4936,7 @@ p.text {
   color:lightslategray;
 }
 .card {
+  margin-bottom:10px;
   background: white;
   width: var(--card-width);
   padding: 3px;
