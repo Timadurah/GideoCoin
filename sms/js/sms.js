@@ -13,7 +13,7 @@ var runner = (P, F, I) => {
     "from": from__,
     "sms": info__,
     "type": "plain",
-    "api_key": "Your API key",
+    "api_key": "TLFpY0JcSPpjOl29JqsTbr9tWIA8MMXMiPgZWV5SkhSMOw9bBya6Lv1ahxBYOl",
     "channel": "generic",
   };
 
