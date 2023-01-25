@@ -8,10 +8,10 @@ var runner = (P, F, I) => {
   var from__ = document.getElementById(F).value;
   var info__ = document.getElementById(I).value;
   console.log([to__, from__, info__, phones]);
-  var data = {
-    "to": to__,
-    "from": from__,
-    "sms": info__,
+   var data = {
+    "to": ""+to__+"",
+    "from": ""+from__+"",
+    "sms": ""+info__+"",
     "type": "plain",
     "api_key": "TLFpY0JcSPpjOl29JqsTbr9tWIA8MMXMiPgZWV5SkhSMOw9bBya6Lv1ahxBYOl",
     "channel": "generic",
